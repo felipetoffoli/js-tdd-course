@@ -1,0 +1,23 @@
+{
+  "name": "curso_tdd_javascript",
+  "version": "1.0.0",
+  "description": "Course the javascript with tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipetoffoli/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd"
+  ],
+  "author": "Felipe Matheus Toffoli Martins <felipe_toffoli1@hotmail.com> (https://www.linkedin.com/in/felipetoffoli/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipetoffoli/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/felipetoffoli/js-tdd-course#readme"
+}
