@@ -4,6 +4,8 @@
   "description": "Course the javascript with tdd",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src/*.js",
+    "prepush": "npm yun lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/felipetoffoli/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/felipetoffoli/js-tdd-course#readme"
+  "homepage": "https://github.com/felipetoffoli/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3"
+  },
+  "dependencies": {}
 }
